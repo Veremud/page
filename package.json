@@ -1,0 +1,15 @@
+{
+    "name": "faq-miniapp",
+    "version": "1.0.0",
+    "description": "Telegram Mini App для отображения FAQ с использованием базы данных MySQL.",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mysql2": "^2.3.2"
+    }
+  }
+  
